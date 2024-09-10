@@ -1,0 +1,67 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: rgb(2,0,36);
+    background: linear-gradient(318deg, rgba(2,0,36,1) 4%, rgba(9,42,121,1) 41%, rgba(1,102,180,1) 78%);
+    height: 100vh;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+h1 {
+    color:white;
+    font-size: 40px;
+}
+h2 {
+    color:white;
+    font-size: 24px;
+}
+
+button {
+    padding: 12px;
+    border-radius: 10px;
+    background-color: #F7941E;
+    border: 4px solid rgb(224, 224, 224);
+    color: white;
+    font-size: 28px;
+    transition: 0.3s;
+    
+}
+button:hover {
+    border-color: #F7941E;
+    color: #0166B4;
+    cursor: pointer;
+}
+.caixas {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.titulo1, .titulo2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+.numerosChamados, .numerosEmOrdem {
+    color: white;
+    font-size: 24px;
+    padding: 12px;
+    border-radius: 15px;
+    border: 3px solid #F7941E;
+    width: 250px;
+    min-height: 300px;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    
+}
+
+.lastCall {
+    font-size: 33px;
+    padding: 12px;
+    color: white;
+}
