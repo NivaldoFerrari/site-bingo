@@ -1,13 +1,24 @@
+html, body {
+    background: transparent;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background: rgb(2,0,36);
     background: linear-gradient(318deg, rgba(2,0,36,1) 4%, rgba(9,42,121,1) 41%, rgba(1,102,180,1) 78%);
-    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+    
 }
 main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
     
 }
 h1 {
