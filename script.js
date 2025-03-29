@@ -61,6 +61,13 @@ function mostrarUmaUm(){
         
     }
 }
-//console.log(numerosBingo.length)
+
+
+function gerarPedraMaior(){
+    
+    alert("O Seu numero é:" + (Math.floor(Math.random()* 100)) )
+    
+    
+}
 
 

@@ -76,3 +76,7 @@ button:hover {
     padding: 12px;
     color: white;
 }
+
+#pedra {
+    margin-top: 60px;
+}
